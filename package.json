@@ -1,0 +1,25 @@
+{
+  "name": "test_tf_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel public/imageClassification.html"
+  },
+  "keywords": [
+    "tensorflow.js"
+  ],
+  "author": "Marc",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "1.1.0",
+    "@tensorflow/tfjs-node": "1.1.0",
+    "@tensorflow/tfjs-node-gpu": "1.1.0",
+    "rollup": "^1.12.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
